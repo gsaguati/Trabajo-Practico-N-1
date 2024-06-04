@@ -44,7 +44,6 @@ public class Equipo {
 	}
 
 	public void agregarJugador(Jugador jugador) {
-
 		jugadores.add(jugador);
 		JOptionPane.showMessageDialog(null, "Jugador agregado" + jugador);
 	}
@@ -68,7 +67,7 @@ public class Equipo {
 		for (Jugador jugador : jugadores) {
 			if (jugador.getNombre().equalsIgnoreCase(nombre)) {
 				return jugador;
-				
+
 			}
 		}
 		return null;
