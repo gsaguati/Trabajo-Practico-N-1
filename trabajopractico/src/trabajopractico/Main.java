@@ -9,14 +9,29 @@ public class Main {
 		Equipo padua = new Equipo("Padua", "Merlo");
 		Equipo lujan = new Equipo("Lujan", "Lujan");
 		Equipo monte = new Equipo("Monte Grande", "Monte Grande");
+		Equipo vicen = new Equipo("Vicentinos", "San Miguel");
+		Equipo arg = new Equipo("Argentino", "Avellaneda");
+		Equipo centro = new Equipo("Centro Naval", "Nuñez");
+		Equipo matre = new Equipo("Matreros", "Moron");
+		Equipo pac = new Equipo("Pac", "Rodriguez");
 		gestorEquipos.getEquipos().add(padua);
 		gestorEquipos.getEquipos().add(lujan);
 		gestorEquipos.getEquipos().add(monte);
+		gestorEquipos.getEquipos().add(vicen);
+		gestorEquipos.getEquipos().add(arg);
+		gestorEquipos.getEquipos().add(centro);
+		gestorEquipos.getEquipos().add(matre);
+		gestorEquipos.getEquipos().add(pac);
 		Equipo.JCasa(padua);
 		Equipo.JLujan(lujan);
 		Equipo.JMonte(monte);
+		Equipo.JVicen(vicen);
+		Equipo.JArg(arg);
+		Equipo.JCentro(centro);
+		Equipo.JMatre(matre);
+		Equipo.JPac(pac);
 
-		String[] opciones = { "Opciones", "Opciones de Equipo", "Jugar partido", "Equipos", "Salir" };
+		String[] opciones = { "Opciones", "Opciones de Equipo", "Jugar partido", "Equipos", "Iniciar Torneo", "Salir" };
 		int opcion;
 
 		do {
@@ -86,13 +101,17 @@ public class Main {
 						"Seleccionó al equipo:" + gestorEquipos.getEquipos().get(equipoElegido3));
 				break;
 			case 4:
+				 Partidos torneo = new Partidos(gestorEquipos.getEquipos());
+				torneo.iniciarTorneo();
+				break;
+			case 5:
 				break;
 			default:
 				JOptionPane.showMessageDialog(null, "Opción no válida");
 				break;
 			}
 
-		} while (opcion != 4);
+		} while (opcion != 5);
 	}
 
 }

@@ -44,6 +44,7 @@ public class Equipo {
 	}
 
 	public void agregarJugador(Jugador jugador) {
+
 		jugadores.add(jugador);
 		JOptionPane.showMessageDialog(null, "Jugador agregado" + jugador);
 	}
@@ -67,7 +68,7 @@ public class Equipo {
 		for (Jugador jugador : jugadores) {
 			if (jugador.getNombre().equalsIgnoreCase(nombre)) {
 				return jugador;
-
+				
 			}
 		}
 		return null;
@@ -117,8 +118,82 @@ public class Equipo {
 		equipo.getJugadores().add(new Jugador("Enzo", "Medio scrum", 9, 32));
 		equipo.getJugadores().add(new Jugador("Gustavo", "Apertura", 10, 23));
 		equipo.getJugadores().add(new Jugador("Ariel", "Wing", 11, 27));
-		// equipo.getJugadores().add(new Jugador("Bruno", "Centro", 12, 19));
+	    equipo.getJugadores().add(new Jugador("Bruno", "Centro", 12, 19));
 
 	}
+	public static void JVicen(Equipo equipo) {
+		equipo.getJugadores().add(new Jugador("Thiago", "Pilar", 1, 23));
+		equipo.getJugadores().add(new Jugador("Augusto", "Hooker", 2, 43));
+		equipo.getJugadores().add(new Jugador("Alejo", "Pilar", 3, 27));
+		equipo.getJugadores().add(new Jugador("Facundo", "Segunda linea", 4, 22));
+		equipo.getJugadores().add(new Jugador("Ignacion", "Segunda linea", 5, 24));
+		equipo.getJugadores().add(new Jugador("Luciano", "Ala", 6, 26));
+		equipo.getJugadores().add(new Jugador("Angel", "Ala", 7, 30));
+		equipo.getJugadores().add(new Jugador("Ezequiel", "Octavo", 8, 21));
+		equipo.getJugadores().add(new Jugador("Enzo", "Medio scrum", 9, 32));
+		equipo.getJugadores().add(new Jugador("Gustavo", "Apertura", 10, 23));
+		equipo.getJugadores().add(new Jugador("Ariel", "Wing", 11, 27));
+	    equipo.getJugadores().add(new Jugador("Bruno", "Centro", 12, 19));
 
+	}
+	public static void JArg(Equipo equipo) {
+		equipo.getJugadores().add(new Jugador("Thiago", "Pilar", 1, 23));
+		equipo.getJugadores().add(new Jugador("Augusto", "Hooker", 2, 43));
+		equipo.getJugadores().add(new Jugador("Alejo", "Pilar", 3, 27));
+		equipo.getJugadores().add(new Jugador("Facundo", "Segunda linea", 4, 22));
+		equipo.getJugadores().add(new Jugador("Ignacion", "Segunda linea", 5, 24));
+		equipo.getJugadores().add(new Jugador("Luciano", "Ala", 6, 26));
+		equipo.getJugadores().add(new Jugador("Angel", "Ala", 7, 30));
+		equipo.getJugadores().add(new Jugador("Ezequiel", "Octavo", 8, 21));
+		equipo.getJugadores().add(new Jugador("Enzo", "Medio scrum", 9, 32));
+		equipo.getJugadores().add(new Jugador("Gustavo", "Apertura", 10, 23));
+		equipo.getJugadores().add(new Jugador("Ariel", "Wing", 11, 27));
+	    equipo.getJugadores().add(new Jugador("Bruno", "Centro", 12, 19));
+
+	}
+	public static void JCentro(Equipo equipo) {
+		equipo.getJugadores().add(new Jugador("Thiago", "Pilar", 1, 23));
+		equipo.getJugadores().add(new Jugador("Augusto", "Hooker", 2, 43));
+		equipo.getJugadores().add(new Jugador("Alejo", "Pilar", 3, 27));
+		equipo.getJugadores().add(new Jugador("Facundo", "Segunda linea", 4, 22));
+		equipo.getJugadores().add(new Jugador("Ignacion", "Segunda linea", 5, 24));
+		equipo.getJugadores().add(new Jugador("Luciano", "Ala", 6, 26));
+		equipo.getJugadores().add(new Jugador("Angel", "Ala", 7, 30));
+		equipo.getJugadores().add(new Jugador("Ezequiel", "Octavo", 8, 21));
+		equipo.getJugadores().add(new Jugador("Enzo", "Medio scrum", 9, 32));
+		equipo.getJugadores().add(new Jugador("Gustavo", "Apertura", 10, 23));
+		equipo.getJugadores().add(new Jugador("Ariel", "Wing", 11, 27));
+	    equipo.getJugadores().add(new Jugador("Bruno", "Centro", 12, 19));
+
+	}
+	public static void JMatre(Equipo equipo) {
+		equipo.getJugadores().add(new Jugador("Thiago", "Pilar", 1, 23));
+		equipo.getJugadores().add(new Jugador("Augusto", "Hooker", 2, 43));
+		equipo.getJugadores().add(new Jugador("Alejo", "Pilar", 3, 27));
+		equipo.getJugadores().add(new Jugador("Facundo", "Segunda linea", 4, 22));
+		equipo.getJugadores().add(new Jugador("Ignacion", "Segunda linea", 5, 24));
+		equipo.getJugadores().add(new Jugador("Luciano", "Ala", 6, 26));
+		equipo.getJugadores().add(new Jugador("Angel", "Ala", 7, 30));
+		equipo.getJugadores().add(new Jugador("Ezequiel", "Octavo", 8, 21));
+		equipo.getJugadores().add(new Jugador("Enzo", "Medio scrum", 9, 32));
+		equipo.getJugadores().add(new Jugador("Gustavo", "Apertura", 10, 23));
+		equipo.getJugadores().add(new Jugador("Ariel", "Wing", 11, 27));
+	    equipo.getJugadores().add(new Jugador("Bruno", "Centro", 12, 19));
+
+	}
+	public static void JPac(Equipo equipo) {
+		equipo.getJugadores().add(new Jugador("Thiago", "Pilar", 1, 23));
+		equipo.getJugadores().add(new Jugador("Augusto", "Hooker", 2, 43));
+		equipo.getJugadores().add(new Jugador("Alejo", "Pilar", 3, 27));
+		equipo.getJugadores().add(new Jugador("Facundo", "Segunda linea", 4, 22));
+		equipo.getJugadores().add(new Jugador("Ignacion", "Segunda linea", 5, 24));
+		equipo.getJugadores().add(new Jugador("Luciano", "Ala", 6, 26));
+		equipo.getJugadores().add(new Jugador("Angel", "Ala", 7, 30));
+		equipo.getJugadores().add(new Jugador("Ezequiel", "Octavo", 8, 21));
+		equipo.getJugadores().add(new Jugador("Enzo", "Medio scrum", 9, 32));
+		equipo.getJugadores().add(new Jugador("Gustavo", "Apertura", 10, 23));
+		equipo.getJugadores().add(new Jugador("Ariel", "Wing", 11, 27));
+	    equipo.getJugadores().add(new Jugador("Bruno", "Centro", 12, 19));
+
+	}
 }

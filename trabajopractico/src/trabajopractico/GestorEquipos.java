@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import javax.swing.JOptionPane;
 
 public class GestorEquipos {
-//	private static final String Jugador;
+	private static final String Jugador = null;
 	private LinkedList<Equipo> equipos;
 
 	public GestorEquipos() {
@@ -213,4 +213,8 @@ public class GestorEquipos {
 		}
 
 	}
+	
+	
+	
+	
 }
